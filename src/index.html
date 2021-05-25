@@ -17,15 +17,15 @@
       method="post"
       onsubmit="onSubmit()"
     >
-      <fieldset class="fieldset">
+      <fieldset >
         <legend>Personal information</legend>
 
-        <label for="surname" class="form-field top">
+        <label for="surname" >
           Surname:
           <input
-              type="text"
-              name="surname"
-              id="surname"
+            type="text"
+            name="surname"
+            id="surname"
           >
         </label>
 
@@ -74,7 +74,7 @@
       <fieldset class="fieldset">
         <legend>Registration</legend>
 
-        <label for="email" class="form-field top">
+        <label for="email" >
          E-mail:
           <input
             required
@@ -101,30 +101,30 @@
         <legend>An interesting fact about you!</legend>
 
         <div class = "form_inline top">
-         Do you love cats?
-          <label class="form_inline form-field" for="love-cats">
+          Do you love cats?
+          <label class="form_inline" for="love-cats">
             <input
               type="radio"
               name="cats"
               value="yes"
               id="love-cats"
             >
-           Yes
+            Yes
           </label>
 
-          <label class = "form_inline form-field" for="dont-love-cats">
+          <label class = "form_inline" for="dont-love-cats">
             <input
               type="radio"
               name="cats"
               value="no"
               id="dont-love-cats"
             >
-           No
+            No
           </label>
         </div>
 
         <label for="color" class="form-field">
-         What is your favourite color?
+         What is your favorite color?
           <input
             type="color"
             name="color"
@@ -142,7 +142,7 @@
         </label>
 
         <label for="cars" class="form-field">
-         What are your favourite brand of cars?
+         What are your favorite brand of cars?
           <select
             name="cars"
             id="cars"
@@ -169,14 +169,15 @@
 
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
-        <label for="comments" class="form-field">
+        <label for="comments" >
          Comments:
           <textarea
             name="comments"
             id="comments"
             cols="20"
             rows="2"
-         ></textarea>
+          >
+          </textarea>
         </label>
 
         <label for="recommend" class="form-field">
@@ -191,7 +192,7 @@
           </select>
         </label>
       </fieldset>
-      <button type="submit">Submit</button>
+      <button type="submit" class="fieldset">Submit</button>
     </form>
   </body>
 </html>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,YACE,aAAc,CACd,eACF,CAEA,UACE,eACF,CAEA,UACE,cACF,CAEA,aACE,cACF","file":"style.e057ddca.css","sourceRoot":"..\\src","sourcesContent":[".form-field {\n  display: block;\n  margin-top: 10px;\n}\n\n.fieldset {\n  margin-top: 20px;\n}\n\n.form_age {\n  max-width: 65px;\n}\n\n.form_inline {\n  display: inline;\n}\n"]}
